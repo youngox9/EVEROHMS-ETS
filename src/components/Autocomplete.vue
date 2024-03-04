@@ -62,7 +62,6 @@ import $ from "jquery";
 import { useState } from "@/utils";
 
 const emit = defineEmits();
-const modelValue = useVModel(props, "modelValue", emit);
 
 const props = defineProps([
   "form",
@@ -72,6 +71,8 @@ const props = defineProps([
   "needFilter",
   "onClose",
 ]);
+
+const modelValue = useVModel(props, "modelValue", emit);
 // const attrs = useAttrs();
 
 const store = useStore();

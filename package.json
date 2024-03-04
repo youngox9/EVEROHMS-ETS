@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "@types/jquery": "^3.5.8",
-    "@vitejs/plugin-vue": "^1.10.2",
+    "@vitejs/plugin-vue": "^5.0.4",
     "@vue/cli-plugin-router": "^4.5.15",
     "@vue/cli-service": "^4.5.15",
     "eslint": "^8.0.0",
